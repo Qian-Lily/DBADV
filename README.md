@@ -1,8 +1,6 @@
 # DBADV
 
-Source code and datasets for paper "Density-Based Clustering for Adaptive Density Variation".
-
-
+This repository contains the source code for the paper **"Density-Based Clustering for Adaptive Density Variation"**, which has been published at ICDM 2021.
 
 ## Requirements
 
@@ -46,3 +44,18 @@ Source code and datasets for paper "Density-Based Clustering for Adaptive Densit
 Run the code by executing:
 
 `python Demo_Seeds.py` for real-world data set or `python Demo_Shape5.py` for synthetic data set.
+
+## Citation
+
+If you used DBADV in your publication or utilized the implementation from this repository, please cite our paper:
+
+```bibtex
+@inproceedings{qian2021dbadv,
+  title={Density-based clustering for adaptive density variation},
+  author={Qian, Li and Plant, Claudia and Böhm, Christian},
+  booktitle={2021 IEEE International Conference on Data Mining (ICDM)},
+  pages={1282--1287},
+  year={2021},
+  organization={IEEE},
+  doi={10.1109/ICDM51629.2021.00158}
+}
